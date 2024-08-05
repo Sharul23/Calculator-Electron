@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="calc_styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="assets/images/wi_jungle logo.jpg" alt="">
+            </div>
+            <h2>Calculator</h2>
+            <a href="index.html" class="home">HOME</a>
+        </div>
+        <div class="main-content">
+            <header>
+                <h2>Calculator</h2>
+                <div class="user-info">
+                    <p>Hello <span>User</span></p>
+                    <img src="assets/images/profile.jpg" alt="User Avatar">
+                </div>
+            </header>
+            <div class="calculator">
+                <div class="display">
+                    <div class="history">0</div>
+                    <div class="result">0</div>
+                </div>
+                <div class="keys">
+
+                    <button class="btn function" data-function="rad">Rad</button>
+                    <button class="btn function" data-function="deg">Deg</button>
+                    <button class="btn function" data-function="square">x²</button>
+                    <button class="btn" data-action="parenthesis">(</button>
+                    <button class="btn" data-action="parenthesis">)</button>
+                    <button class="btn" data-function="percent">%</button>
+                    <button class="btn" data-action="clear">AC</button>
+                    <button class="btn" data-function="inverse">1/x</button>
+                    <button class="btn" data-function="sin">sin</button>
+                    <button class="btn" data-function="cos">cos</button>
+                    <button class="btn" data-function="power">x^y</button>
+                    <button class="btn" data-function="exp">EXP</button>
+                    <button class="btn" data-function="ln">ln</button>
+                    <button class="btn" data-function="pi">π</button>
+                    <button class="btn operator" data-operator="/">÷</button>
+                    <button class="btn" data-function="log">log</button>
+                    <button class="btn number">1</button>
+                    <button class="btn number">2</button>
+                    <button class="btn number">3</button>
+                    <button class="btn operator" data-operator="*">×</button>
+                    <button class="btn" data-function="e">e</button>
+                    <button class="btn number">4</button>
+                    <button class="btn number">5</button>
+                    <button class="btn number">6</button>
+                    <button class="btn operator" data-operator="+">+</button>
+                    <button class="btn" data-action="decimal">.</button>
+                    <button class="btn number">7</button>
+                    <button class="btn number">8</button>
+                    <button class="btn number">9</button>
+                    <button class="btn" data-function="ans">Ans</button>
+                    <button class="btn" data-action="calculate">=</button>
+                    <button class="btn number">0</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
